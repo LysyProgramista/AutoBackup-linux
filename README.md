@@ -1,12 +1,12 @@
-# AutoBackup-lnux
+# AutoBackup-linux
 Creating .tar.gz file then pushing that into ssh instance
 
 
 Usage: backuper [OPTIONS]...
-Creating backups, sending via ssh...
+## Creating backups, sending via ssh...
 
 This program requires tar, scp and sshpass programs on OS...
-
+```
 Options:
   -h, --help, printing help
 
@@ -22,3 +22,4 @@ Options:
 
 Example of usage:
     main.py -c=~/Code -e=~/Code/C++,~/Code/WWW -o=zip.tar.gz -z -s=user@192.168.101.156:./kopia/ -p=pass
+```
